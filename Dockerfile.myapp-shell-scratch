@@ -1,0 +1,3 @@
+FROM scratch
+COPY myapp.sh /usr/bin/myapp.sh
+CMD ["/usr/bin/myapp.sh"]
